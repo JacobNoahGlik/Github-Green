@@ -13,4 +13,8 @@ Never have grey squares on your github again. This will make sure you have made 
 * Be secure
   * Any credentials must be securly stored (or better not stored) 
 * Have access to the users backlog of code to upload in chunks to keep github green
+  * Be able to upload code to the bot
 * Have random logical code added in case we run out of user's code
+  * Figure this out later, for now generate garbage and upload it to github
+* Keep track of streaks and email the user once a week with an update
+  * See my [github emailer.py](https://github.com/JacobNoahGlik/Emailer) for reference
