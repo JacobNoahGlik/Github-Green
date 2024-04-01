@@ -4,6 +4,7 @@ Never have grey squares on your github again. This will make sure you have made 
 <br>
 
 ## Requirements:
+
 * Be able to check if a user has made a comit today (will run at 11:50 PM)
   * More info found [here](https://stackoverflow.com/questions/46855484/checking-if-a-user-made-a-commit-to-github-using-api-on-a-given-day)
 * Be able to create a new commit
@@ -16,5 +17,11 @@ Never have grey squares on your github again. This will make sure you have made 
   * Be able to upload code to the bot
 * Have random logical code added in case we run out of user's code
   * Figure this out later, for now generate garbage and upload it to github
+* Run the bot on aws
+  * See my [run python code on aws forever](https://github.com/JacobNoahGlik/RunScriptOnAWS-Forever) on github
+
+## For the future:
+
 * Keep track of streaks and email the user once a week with an update
   * See my [github emailer.py](https://github.com/JacobNoahGlik/Emailer) for reference
+* Add a website endpoint so a user can add their github credentials to the website and upload their code so that they don't have to run the code on their end.
