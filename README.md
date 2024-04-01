@@ -3,6 +3,11 @@ Never have grey squares on your github again. This will make sure you have made 
 
 <br>
 
+## Where
+Testing will be done on a seprate account to reduce security risk. Found [here](https://github.com/TheOfficialAlmond/test_repo).
+
+<br>
+
 ## Requirements:
 
 * Be able to check if a user has made a comit today (will run at 11:50 PM)
