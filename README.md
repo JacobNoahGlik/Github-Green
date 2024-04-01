@@ -12,3 +12,5 @@ Never have grey squares on your github again. This will make sure you have made 
   * More info found [here](https://docs.python.org/3/library/sched.html)
 * Be secure
   * Any credentials must be securly stored (or better not stored) 
+* Have access to the users backlog of code to upload in chunks to keep github green
+* Have random logical code added in case we run out of user's code
