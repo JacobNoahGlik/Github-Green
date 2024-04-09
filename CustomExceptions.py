@@ -1,1 +1,2 @@
-# errors from github api 
+# errors from github api
+# - non 200 response codes
