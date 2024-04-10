@@ -32,8 +32,6 @@ Testing will be done on a seprate account to reduce security risk. Found [here](
   * Any credentials must be securly stored (or better not stored) 
 * Have access to the users backlog of code to upload in chunks to keep github green
   * Be able to upload code to the bot
-* Have random logical code added in case we run out of user's code
-  * Figure this out later, for now generate garbage and upload it to github
 * Run the bot on aws
   * See my [run python code on aws forever](https://github.com/JacobNoahGlik/RunScriptOnAWS-Forever) on github
 
