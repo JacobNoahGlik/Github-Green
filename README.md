@@ -8,6 +8,11 @@ Testing will be done on a seprate account to reduce security risk. Found [here](
 
 <br>
 
+## How
+This project will be completed outside of github and will be uploaded to github using the project itself as a PoC
+
+<br>
+
 ## Issues:
 * **SOLVED:** ~~While trying to securely store the github token I ran into an issue: I can't store the token as an unencrypted string in the code or in a file. So I encrypted the file, but now I need to store the encryption key. Great back to square one.~~
   * Possible solutions:
