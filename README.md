@@ -33,6 +33,8 @@ This project will be completed outside of GitHub and will be uploaded to GitHub 
   * More info found [here](https://stackoverflow.com/questions/7119452/git-commit-from-python)
 * Be able to only run once a day (using a scheduler)
   * More info found [here](https://docs.python.org/3/library/sched.html)
+* Be able to generate helpful commit messages and bodies
+  * Using [this GitHub repo](https://github.com/Strvm/meta-ai-api) for reference which uses meta ai
 * Be secure
   * Any credentials must be securely stored (or better not stored) 
 * Have access to the users' backlog of code to upload in chunks to keep GitHub green
