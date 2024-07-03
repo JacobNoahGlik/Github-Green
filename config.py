@@ -15,3 +15,11 @@ def get_config(file: str = __CONFIG_FILE__) -> dict[str, str]:
         configuration[key] = line.split('"')[1]
     return configuration
 
+
+def update_config(file: str = __CONFIG_FILE__, configuration: dict[str, str] = {}) -> None:
+    c = get_config(file=file)
+    c.update(configuration)
+    with open(file, 'w') as config:
+        for key, value in c.items():
+            config.write(f'{key}="{value}"\n')
+
