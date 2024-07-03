@@ -1,6 +1,10 @@
 import os
 
+
+
 __CONFIG_FILE__: str = "config"
+
+
 
 def get_config(file: str = __CONFIG_FILE__) -> dict[str, str]:
     if not os.path.exists(file):
@@ -23,6 +27,7 @@ def update_config(file: str = __CONFIG_FILE__, configuration: dict[str, str] = {
         for key, value in c.items():
             config.write(f'{key}="{value}"\n')
 
+
 def revert_to_default(file: str = __CONFIG_FILE__) -> None:
     with open(file, 'w') as config:
         config.write(
@@ -36,6 +41,7 @@ def revert_to_default(file: str = __CONFIG_FILE__) -> None:
             'err = "errInfo.csv"\n'
         )
 
+
 def default_key_filename(key_file: str | None = None, filename: str | None = None):
     configuration = get_config()
     if key_file is None:
@@ -44,3 +50,18 @@ def default_key_filename(key_file: str | None = None, filename: str | None = Non
         filename = configuration['token_vault']
     return key_file, filename
 
+
+def default_name_email(name: str | None = None, email: str | None = None):
+    configuration = get_config()
+    if name is None:
+        name = configuration['name']
+    if email is None:
+        email = configuration['email']
+    return name, email
+
+
+
+if __name__ == '__main__':
+    if input("> Are you sure you want to reset the config file? (y/n): ").lower() in ['y', 'yes', 'ye', 'yeah', 'override']:
+        revert_to_default()
+        print("> Config file reset.")
